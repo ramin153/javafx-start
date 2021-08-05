@@ -13,7 +13,7 @@ import javafx.stage.Stage;
 import javax.swing.*;
 import java.util.EventListener;
 
-public class Main extends Application implements EventHandler<ActionEvent> {
+public class Main extends Application  {
 
     Button button;
 
@@ -25,7 +25,7 @@ public class Main extends Application implements EventHandler<ActionEvent> {
 
         StackPane layout = new StackPane();
         button = new Button("hello world");
-        button.setOnAction(this);
+        button.setOnAction(e-> System.out.println("button with lambda "));
         layout.getChildren().add(button);
 
         Scene scene = new Scene(layout,400,200);
@@ -41,11 +41,5 @@ public class Main extends Application implements EventHandler<ActionEvent> {
         launch(args);
     }
 
-    @Override
-    public void handle(ActionEvent actionEvent) {
-        if (actionEvent.getSource() == button)
-        {
-            System.out.println("button clicked");
-        }
-    }
+
 }
