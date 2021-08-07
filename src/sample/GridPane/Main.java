@@ -41,7 +41,7 @@ public class Main extends Application {
         layout.setConstraints(passwordInput,1,1);
         layout.setConstraints(submit,1,2);
 
-        Scene scene = new Scene(layout,600,400);
+        Scene scene = new Scene(layout,400,200);
         stage.setScene(scene);
         stage.setTitle("grid pane");
         stage.show();
