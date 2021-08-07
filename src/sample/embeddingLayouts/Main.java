@@ -80,7 +80,7 @@ public class Main extends Application {
 
 
         stage.setScene(scene);
-
+        stage.setTitle("embedding layout");
         stage.show();
 
 

@@ -29,7 +29,7 @@ public class Main extends Application {
         scene = new Scene(layout,800,400);
         label = new Label("");
 
-        stage.setTitle("multiple stage");
+        stage.setTitle("confirm box");
         stage.setScene(scene);
 
         button.setOnAction(actionEvent -> {

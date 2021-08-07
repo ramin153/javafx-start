@@ -28,7 +28,7 @@ public class Main extends Application {
         scene = new Scene(layout,800,400);
 
 
-        stage.setTitle("multiple stage");
+        stage.setTitle("close button");
         stage.setScene(scene);
 
         stage.setOnCloseRequest(actionEvent -> {
