@@ -1,0 +1,33 @@
+.root
+{
+    
+    -fx-background-color:rgb(221, 203, 207);
+    -fx-font-size: 14pt;
+}
+
+.label
+{
+    -fx-text-fill: rgb(191, 239, 245);
+}
+
+.label-class
+{
+    -fx-text-fill: rgb(109, 121, 72);
+}
+
+#label-id
+{
+    -fx-text-fill: rgb(94, 69, 128);
+}
+
+.button
+{
+    -fx-background-color: hotpink;
+    -fx-text-fill: rgb(85, 25, 170);
+    -fx-background-radius: 12;
+}
+
+.button:pressed {
+    -fx-background-color: rgb(54, 85, 187);
+    -fx-text-fill: rgb(224, 221, 46);
+}
